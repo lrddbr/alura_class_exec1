@@ -1,0 +1,55 @@
+body{
+    font: normal 20px Arial;
+    background-color: rgb(32, 32, 32);
+    color:rgb(32, 32, 32);
+}
+header{
+    background-color: black;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    color:azure;
+}
+.título{
+    font-family: "Oswald", sans-serif;
+}
+section{
+    color: white;
+    border: solid 2px white;
+    border-radius: 10px;
+    padding: 15px;
+    width: auto; /*O auto fixa o elemento na pagina. Teste o arquivo no provedor para entender melhor*/
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.304);
+    /*display: block;*/
+}
+.t1{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.t1 img{
+    opacity: 1.0;
+    height: 200px;
+}
+.t1 img:hover{
+    border: 5px solid white;
+    opacity: 0.5;
+    height: 210px;
+}
+.shadow{
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.304);
+}
+.mais{
+    padding: 15px;
+    font-size: 40px;
+    text-decoration-line: none;
+    color: blue;
+}
+footer{
+    color:white;
+    text-align: center;
+    background-color:rgb(0, 0, 75);
+    box-shadow: 3xp 3xp 10xp rgba(0, 0, 0, 0.304);
+}
